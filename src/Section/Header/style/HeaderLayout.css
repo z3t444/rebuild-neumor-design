@@ -1,4 +1,11 @@
 .to-payment-button {
-  background: #e0e0e0;
-  box-shadow: 5px 5px 9px #c5c5c5, -5px -5px 9px #fbfbfb;
+  background: #e5e8ef;
+  box-shadow:  5px 5px 6px #c3c5cb,
+               -5px -5px 6px #ffffff;
+}
+
+.for-document {
+  background: #e5e8ef;
+  box-shadow:  5px 5px 6px #c3c5cb,
+               -5px -5px 6px #ffffff;
 }

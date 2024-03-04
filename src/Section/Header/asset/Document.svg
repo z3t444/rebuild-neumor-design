@@ -1,0 +1,26 @@
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient gradientUnits="objectBoundingBox" x1="0.76058316" y1="0.23941669" x2="-0.17766666" y2="1.1776667" id="gradient_1">
+			<stop offset="0%" stop-color="#262626" stop-opacity="0" />
+			<stop offset="91.299995%" stop-color="#262626" stop-opacity="0.8" />
+		</linearGradient>
+		<linearGradient gradientUnits="objectBoundingBox" x1="-0.51243746" y1="1.179625" x2="2.0853438" y2="-0.56420004" id="gradient_2">
+			<stop offset="0%" stop-color="#262626" stop-opacity="0" />
+			<stop offset="100%" stop-color="#262626" stop-opacity="0.8" />
+		</linearGradient>
+		<linearGradient gradientUnits="objectBoundingBox" x1="-0.16666663" y1="2.1485" x2="0.9203889" y2="-0.5396" id="gradient_3">
+			<stop offset="0%" stop-color="#262626" stop-opacity="0" />
+			<stop offset="100%" stop-color="#262626" stop-opacity="0.8" />
+		</linearGradient>
+		<path d="M48 0L48 0L48 48L0 48L0 0L48 0Z" id="path_1" />
+		<clipPath id="clip_1">
+			<use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+		</clipPath>
+	</defs>
+	<g id="Document">
+		<path d="M48 0L48 0L48 48L0 48L0 0L48 0Z" id="Document" fill="none" stroke="none" />
+		<path d="M28 4L28 12C28 14.209 29.791 16 32 16L40 16L28 4L28 4Z" id="Shape" fill="url(#gradient_1)" stroke="none" clip-path="url(#clip_1)" />
+		<path d="M40 16L40 39C40 41.761 37.761 44 35 44L8 44L8 9C8 6.239 10.239 4 13 4L28 4L40 16L40 16Z" id="Shape" fill="url(#gradient_2)" stroke="none" clip-path="url(#clip_1)" />
+		<path d="M33 26L18 26C16.343 26 15 27.343 15 29L15 30L30 30C31.657 30 33 28.657 33 27L33 26L33 26ZM24 18L18 18C16.343 18 15 19.343 15 21L15 22L21 22C22.657 22 24 20.657 24 19L24 18L24 18ZM33 34L18 34C16.343 34 15 35.343 15 37L15 38L30 38C31.657 38 33 36.657 33 35L33 34L33 34Z" id="Shape" fill="url(#gradient_3)" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+	</g>
+</svg>
