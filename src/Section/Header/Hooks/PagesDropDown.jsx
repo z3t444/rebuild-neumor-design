@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import DropArrow from '../asset/DropArrow.svg'
 
 const DropdownMenu = () => {

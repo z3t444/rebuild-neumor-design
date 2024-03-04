@@ -1,16 +1,17 @@
 // import section layout
-import HeaderSection from './Section/Header/HeaderLayout'
+import HeaderSection from "./Section/Header/HeaderLayout";
+import HeroSection from "./Section/Hero/HeroLayout";
 
+import "./App.css";
 
-import './App.css'
-
-function App () {
+function App() {
   return (
     <>
       {/* layout section */}
-      <HeaderSection/>
+      <HeaderSection />
+      <HeroSection/>
     </>
-  )
+  );
 }
 
 export default App;
