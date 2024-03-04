@@ -2,6 +2,7 @@
 
 .montserrat {
   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .logo {

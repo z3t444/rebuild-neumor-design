@@ -12,7 +12,7 @@ import "./style/HeaderLayout.css";
 function HeaderLayout() {
   return (
     <>
-      <main className="flex items-center justify-between px-5">
+      <main className="flex items-center justify-between xl:px-32 px-5">
         <nav className="flex items-center montserrat justify-around mt-5">
           {/* for DropDown Menu */}
           <div className="flex items-center gap-5">
@@ -27,8 +27,15 @@ function HeaderLayout() {
               </div>
             </div>
           </div>
-          {/* for button header */}
-          <div className="hidden md:block lg:block xl:block">
+        </nav>
+
+        {/* nav slide mobile */}
+        <div className="block md:hidden mt-6 lg:hidden xl:hidden">
+          <SlideNav />
+        </div>
+
+         {/* for button header */}
+         <div className="hidden md:block mt-6 lg:block xl:block">
             <div className="flex items-center gap-5">
               <a href="/">
                 <button className="to-payment-button hover:scale-95 duration-300 p-3 flex items-center gap-2 rounded-lg">
@@ -44,12 +51,6 @@ function HeaderLayout() {
               </a>
             </div>
           </div>
-        </nav>
-
-        {/* nav slide mobile */}
-        <div className="block md:hidden lg:hidden xl:hidden">
-          <SlideNav />
-        </div>
       </main>
     </>
   );
