@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  background: #e5e8ef;
+  box-shadow:  5px 5px 6px #c3c5cb,
+               -5px -5px 6px #ffffff;
+}
+
 .to-payment-button {
   background: #e5e8ef;
   box-shadow:  5px 5px 6px #c3c5cb,
@@ -9,3 +21,4 @@
   box-shadow:  5px 5px 6px #c3c5cb,
                -5px -5px 6px #ffffff;
 }
+
