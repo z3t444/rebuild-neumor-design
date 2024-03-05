@@ -1,6 +1,7 @@
 // import section layout
 import HeaderSection from "./Section/Header/HeaderLayout";
 import HeroSection from "./Section/Hero/HeroLayout";
+import BannerSection from "./Section/Banner/bannerSection";
 
 import "./App.css";
 
@@ -9,7 +10,8 @@ function App() {
     <>
       {/* layout section */}
       <HeaderSection />
-      <HeroSection/>
+      <HeroSection />
+      <BannerSection />
     </>
   );
 }
