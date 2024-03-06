@@ -8,7 +8,7 @@ import "./style/roundedstyle.css";
 function EmojiLayout() {
   return (
     <>
-      <div className="flex items-center gap-40 mt-32 justify-center">
+      <div className="flex items-center gap-40 mt-36 justify-center">
         <div>
           {/* for rounded smile Icons */}
           <div className="flex justify-center">
@@ -16,7 +16,7 @@ function EmojiLayout() {
           </div>
           <div className="text-center mt-4">
             <p className="text-sm text-gray-800 font-semibold">Team Members</p>
-            <h3 className="text-3xl mt-1 font-medium">500</h3>
+            <h3 className="text-3xl mt-2 text-gray-800 font-medium">500</h3>
           </div>
         </div>
         <div>
@@ -26,7 +26,7 @@ function EmojiLayout() {
           </div>
           <div className="text-center mt-4">
             <p className="text-sm text-gray-800 font-semibold">Project Published</p>
-            <h3 className="text-3xl mt-1 font-medium">2400</h3>
+            <h3 className="text-3xl mt-2 text-gray-800 font-medium">2400</h3>
           </div>
         </div>
         <div>
@@ -36,7 +36,7 @@ function EmojiLayout() {
           </div>
           <div className="text-center mt-4">  
             <p className="text-sm text-gray-800 font-semibold">Countries</p>
-            <h3 className="text-3xl mt-1 font-medium">80</h3>
+            <h3 className="text-3xl mt-2 text-gray-800 font-medium">80</h3>
           </div>
         </div>
       </div>

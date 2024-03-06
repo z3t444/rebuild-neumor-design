@@ -20,8 +20,8 @@
   }
   
   .box {
-    width: 30vmin;
-    height: 30vmin;
+    width: 50vmin;
+    height: 50vmin;
     border: 1px dashed rgba(255,255,255,0.4);
     position: relative;
     

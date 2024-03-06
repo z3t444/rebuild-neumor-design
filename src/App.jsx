@@ -4,6 +4,7 @@ import HeroSection from "./Section/Hero/HeroLayout";
 import BannerSection from "./Section/Banner/bannerSection";
 import ContentSection from "./Section/content/ContentLayout";
 import RoundedEmoji from "./Section/rounded-emoji/rounded-emoji";
+import TeamSection from "./Section/Team/TeamLayout";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BannerSection />
       <ContentSection />
       <RoundedEmoji />
+      <TeamSection/>
     </>
   );
 }

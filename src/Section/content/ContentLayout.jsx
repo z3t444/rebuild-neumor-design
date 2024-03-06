@@ -3,7 +3,7 @@ import "./style/ContentStyle.css";
 function ContentLayout() {
   return (
     <>
-      <div className="flex justify-center gap-40 mt-36 be-vietnam items-center">
+      <div className="flex justify-center gap-40 mt-40 be-vietnam items-center">
         <div>
           {/* left content */}
           <div className="box">
