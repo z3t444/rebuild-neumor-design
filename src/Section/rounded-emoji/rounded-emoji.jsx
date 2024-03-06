@@ -1,7 +1,7 @@
 // for import icons
 import ForHappy from "./asset/Happy.svg";
 import Eyes from "./asset/Eyes.svg";
-import Globe from './asset/globe.svg'
+import Globe from "./asset/globe.svg";
 
 import "./style/roundedstyle.css";
 
@@ -34,7 +34,7 @@ function EmojiLayout() {
           <div>
             <img className="p-4 globe-icons rounded-full" src={Globe} alt="" />
           </div>
-          <div className="text-center mt-4">  
+          <div className="text-center mt-4">
             <p className="text-sm text-gray-800 font-semibold">Countries</p>
             <h3 className="text-3xl mt-2 text-gray-800 font-medium">80</h3>
           </div>
