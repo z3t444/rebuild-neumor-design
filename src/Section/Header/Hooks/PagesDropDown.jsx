@@ -18,7 +18,7 @@ const DropdownMenu = () => {
 
       {isOpen && (
         <div className="origin-top-right absolute right-0 mt-3 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-          {/* ffff */}
+          {/* DropDown */}
           <RoutePages/>
         </div>
       )}
