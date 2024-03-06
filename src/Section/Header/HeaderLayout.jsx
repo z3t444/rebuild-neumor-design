@@ -12,7 +12,7 @@ import "./style/HeaderLayout.css";
 function HeaderLayout() {
   return (
     <>
-      <main className="flex items-center py-5 justify-between xl:px-52 px-5">
+      <main className="flex items-center py-5 justify-between xl:justify-around px-5">
         <nav className="flex items-center montserrat justify-around mt-5">
           {/* for DropDown Menu */}
           <div className="flex items-center gap-5">

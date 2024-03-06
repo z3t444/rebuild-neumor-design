@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 
 const SlideNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);

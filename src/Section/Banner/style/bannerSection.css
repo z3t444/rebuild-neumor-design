@@ -10,3 +10,10 @@
     5px 5px 6px #c3c5cb,
     -5px -5px 6px #ffffff;
 }
+
+.rounded-asset {
+  background: #e5e8ef;
+  box-shadow:
+    inset 5px 5px 10px #c0c3c9,
+    inset -5px -5px 10px #ffffff;
+}
