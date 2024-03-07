@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.route-page-container {
+  background: #e5e8ef;
+  box-shadow:
+    5px 5px 10px #b9bcc2,
+    -5px -5px 10px #ffffff;
+}
+
+.route-component-container {
+  background: #e5e8ef;
+  box-shadow:
+    5px 5px 10px #b9bcc2,
+    -5px -5px 10px #ffffff;
+}
+
+.route-support-container {
+  background: #e5e8ef;
+  box-shadow:
+    5px 5px 10px #b9bcc2,
+    -5px -5px 10px #ffffff;
+}
